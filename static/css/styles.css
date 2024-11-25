@@ -1,0 +1,105 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(135deg, black, gray);
+    color: #fff;
+}
+
+h1{
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+header {
+    background: linear-gradient(135deg, navy, green);
+    padding: 1rem;
+    text-align: center;
+    background-image: url("/static/images/luffy.jpeg");
+}
+
+header a {
+    color: #fff;
+    margin-left: 15px;
+    text-decoration: none;
+}
+
+.movies {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+    justify-content: center;
+}
+
+.movie {
+    background: #333;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+    width: 200px;
+}
+
+div.card {
+    box-shadow: 2px 2px 5px gray;
+}
+
+.movie img {
+    max-width: 100%;
+    border-radius: 5px;
+}
+
+h2 {
+    color: orangered;
+    text-align: center;
+}
+
+form{
+    text-align: center;
+    text-shadow: 2px 2px 5px;
+}
+
+.register{
+    text-align: center;
+    margin-top: 20%;
+    margin-right: 5%;
+}   
+
+.login{
+    text-align:left;
+    margin-top: 10%;
+    margin-right: 5%;
+}
+
+button {
+    padding: 15px 20px;
+    font-size: 1.3em;
+    border: none;
+    border-radius: 20px;
+    background: linear-gradient(135deg, gray, navy);
+    color: rgb(24, 14, 14);
+    cursor: pointer;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 4px 15px rgba(224, 31, 31, 0.2);
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(205, 57, 57, 0.3);
+    background: linear-gradient(135deg, #e04545, #f75f5f);
+}
+
+.movie:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(205, 57, 57, 0.3);
+    background: linear-gradient(135deg, #913939, #a88b8b);
+}
+
+h1:hover {
+    transform: translateY(-2px);
+}
+
+p{
+    text-align: center;
+}
